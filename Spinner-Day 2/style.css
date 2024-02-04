@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spinner{
+    width: 100px;
+    height: 100px;
+    border: 10px solid #0000003d;
+    border-radius: 50%;
+    border-bottom: 10px solid #a4343458;
+    animation: spinning 2s linear infinite;
+}
+
+@keyframes spinning {
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
