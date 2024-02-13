@@ -19,9 +19,13 @@ body{
 nav{
     width: 250px;
     height: 100vh;
-    background: grey;
+    background: rgba(128, 128, 128, 0.506);
     position: absolute;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    left: -250px;
 }
+
 nav ul{
     height: 100%;
     display: flex;
